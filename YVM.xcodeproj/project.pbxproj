@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0413E10523B9B70800E861CA /* YVMTestIncomeObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 0413E0FD23B9B70800E861CA /* YVMTestIncomeObj.m */; };
+		0413E10623B9B70800E861CA /* YVMTestIncomeTableCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0413E0FF23B9B70800E861CA /* YVMTestIncomeTableCellModel.m */; };
+		0413E10723B9B70800E861CA /* YVMTestPageObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 0413E10023B9B70800E861CA /* YVMTestPageObj.m */; };
+		0413E10823B9B70800E861CA /* YVMTestBaseObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 0413E10323B9B70800E861CA /* YVMTestBaseObj.m */; };
+		042AA4C723B1F30C00C7D957 /* NSObject+YVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 042AA4C623B1F30C00C7D957 /* NSObject+YVM.m */; };
+		043C2F1523B339B400E8C7D6 /* YVMRefreshTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 043C2F1423B339B400E8C7D6 /* YVMRefreshTableView.m */; };
+		043C2F1823B363F800E8C7D6 /* YVMRefreshCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 043C2F1723B363F800E8C7D6 /* YVMRefreshCollectionView.m */; };
+		044F315723C472FC00DE5C92 /* YVMTableViewManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 044F315623C472FC00DE5C92 /* YVMTableViewManage.m */; };
+		044F315A23C495EC00DE5C92 /* YVMCollectionViewManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 044F315923C495EC00DE5C92 /* YVMCollectionViewManage.m */; };
+		0460D34623B4BA9E00CCC826 /* YVMListViewManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0460D34523B4BA9E00CCC826 /* YVMListViewManage.m */; };
+		0467DCB423A0FA08006F8B40 /* YVMNetWorkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 0467DCB323A0FA08006F8B40 /* YVMNetWorkConfig.m */; };
+		0483BEBF2325EE860078FD6B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0483BEBE2325EE860078FD6B /* AppDelegate.m */; };
+		0483BEC72325EE870078FD6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0483BEC62325EE870078FD6B /* Assets.xcassets */; };
+		0483BECD2325EE870078FD6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0483BECC2325EE870078FD6B /* main.m */; };
+		0483BED7232603BF0078FD6B /* YVMNetWorkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0483BED6232603BF0078FD6B /* YVMNetWorkManager.m */; };
+		04B5451523323D1000391B8A /* YVMNetWorkClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B5451423323D1000391B8A /* YVMNetWorkClient.m */; };
+		04B5451823323DA700391B8A /* YVMRequestManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B5451723323DA700391B8A /* YVMRequestManage.m */; };
+		04C7680A23B5C2D700655359 /* YVMListSectionManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C7680923B5C2D700655359 /* YVMListSectionManage.m */; };
+		04D798D623C5AE1E002357DD /* YVMTestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D798D523C5AE1E002357DD /* YVMTestTableViewController.m */; };
+		04D798D923C5B768002357DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D798D823C5B768002357DD /* LaunchScreen.storyboard */; };
+		04ECAED523B490280029E379 /* YVMControlConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ECAED423B490280029E379 /* YVMControlConfig.m */; };
+		04ECAED823B490760029E379 /* YVMManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ECAED723B490760029E379 /* YVMManage.m */; };
+		228E356216DF8D47B83A57A3 /* libPods-YVM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F10D527CAB2E6DBF76407BFF /* libPods-YVM.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0413E0FD23B9B70800E861CA /* YVMTestIncomeObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YVMTestIncomeObj.m; sourceTree = "<group>"; };
+		0413E0FE23B9B70800E861CA /* YVMTestIncomeTableCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YVMTestIncomeTableCellModel.h; sourceTree = "<group>"; };
+		0413E0FF23B9B70800E861CA /* YVMTestIncomeTableCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YVMTestIncomeTableCellModel.m; sourceTree = "<group>"; };
+		0413E10023B9B70800E861CA /* YVMTestPageObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YVMTestPageObj.m; sourceTree = "<group>"; };
+		0413E10123B9B70800E861CA /* YVMTestPageObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YVMTestPageObj.h; sourceTree = "<group>"; };
+		0413E10223B9B70800E861CA /* YVMTestBaseObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YVMTestBaseObj.h; sourceTree = "<group>"; };
+		0413E10323B9B70800E861CA /* YVMTestBaseObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YVMTestBaseObj.m; sourceTree = "<group>"; };
+		0413E10423B9B70800E861CA /* YVMTestIncomeObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YVMTestIncomeObj.h; sourceTree = "<group>"; };
+		042AA4C523B1F30C00C7D957 /* NSObject+YVM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+YVM.h"; sourceTree = "<group>"; };
+		042AA4C623B1F30C00C7D957 /* NSObject+YVM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YVM.m"; sourceTree = "<group>"; };
+		043C2F1223B319E500E8C7D6 /* YVMCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YVMCommon.h; sourceTree = "<group>"; };
+		043C2F1323B339B400E8C7D6 /* YVMRefreshTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YVMRefreshTableView.h; sourceTree = "<group>"; };
+		043C2F1423B339B400E8C7D6 /* YVMRefreshTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YVMRefreshTableView.m; sourceTree = "<group>"; };
+		043C2F1623B363F800E8C7D6 /* YVMRefreshCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YVMRefreshCollectionView.h; sourceTree = "<group>"; };
+		043C2F1723B363F800E8C7D6 /* YVMRefreshCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YVMRefreshCollectionView.m; sourceTree = "<group>"; };
+		044F315523C472FC00DE5C92 /* YVMTableViewManage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YVMTableViewManage.h; sourceTree = "<group>"; };
+		044F315623C472FC00DE5C92 /* YVMTableViewManage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YVMTableViewManage.m; sourceTree = "<group>"; };
+		044F315823C495EC00DE5C92 /* YVMCollectionViewManage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YVMCollectionViewManage.h; sourceTree = "<group>"; };
+		044F315923C495EC00DE5C92 /* YVMCollectionViewManage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YVMCollectionViewManage.m; sourceTree = "<group>"; };
+		0460D34423B4BA9E00CCC826 /* YVMListViewManage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YVMListViewManage.h; sourceTree = "<group>"; };
+		0460D34523B4BA9E00CCC826 /* YVMListViewManage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YVMListViewManage.m; sourceTree = "<group>"; };
+		0467DCB223A0FA08006F8B40 /* YVMNetWorkConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YVMNetWorkConfig.h; sourceTree = "<group>"; };
+		0467DCB323A0FA08006F8B40 /* YVMNetWorkConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YVMNetWorkConfig.m; sourceTree = "<group>"; };
+		0483BEBA2325EE860078FD6B /* YVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0483BEBD2325EE860078FD6B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0483BEBE2325EE860078FD6B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0483BEC62325EE870078FD6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0483BECB2325EE870078FD6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0483BECC2325EE870078FD6B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0483BED5232603BF0078FD6B /* YVMNetWorkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YVMNetWorkManager.h; sourceTree = "<group>"; };
+		0483BED6232603BF0078FD6B /* YVMNetWorkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YVMNetWorkManager.m; sourceTree = "<group>"; };
+		04B5451323323D1000391B8A /* YVMNetWorkClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YVMNetWorkClient.h; sourceTree = "<group>"; };
+		04B5451423323D1000391B8A /* YVMNetWorkClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YVMNetWorkClient.m; sourceTree = "<group>"; };
+		04B5451623323DA700391B8A /* YVMRequestManage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YVMRequestManage.h; sourceTree = "<group>"; };
+		04B5451723323DA700391B8A /* YVMRequestManage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YVMRequestManage.m; sourceTree = "<group>"; };
+		04C7680823B5C2D700655359 /* YVMListSectionManage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YVMListSectionManage.h; sourceTree = "<group>"; };
+		04C7680923B5C2D700655359 /* YVMListSectionManage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YVMListSectionManage.m; sourceTree = "<group>"; };
+		04D798D423C5AE1E002357DD /* YVMTestTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YVMTestTableViewController.h; sourceTree = "<group>"; };
+		04D798D523C5AE1E002357DD /* YVMTestTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YVMTestTableViewController.m; sourceTree = "<group>"; };
+		04D798D823C5B768002357DD /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04ECAED323B490280029E379 /* YVMControlConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YVMControlConfig.h; sourceTree = "<group>"; };
+		04ECAED423B490280029E379 /* YVMControlConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YVMControlConfig.m; sourceTree = "<group>"; };
+		04ECAED623B490760029E379 /* YVMManage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YVMManage.h; sourceTree = "<group>"; };
+		04ECAED723B490760029E379 /* YVMManage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YVMManage.m; sourceTree = "<group>"; };
+		7DD5F39F1EC058D9D05DA643 /* Pods-YVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YVM.debug.xcconfig"; path = "Target Support Files/Pods-YVM/Pods-YVM.debug.xcconfig"; sourceTree = "<group>"; };
+		95C2C8305481CEE897587882 /* Pods-YVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YVM.release.xcconfig"; path = "Target Support Files/Pods-YVM/Pods-YVM.release.xcconfig"; sourceTree = "<group>"; };
+		F10D527CAB2E6DBF76407BFF /* libPods-YVM.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YVM.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0483BEB72325EE860078FD6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				228E356216DF8D47B83A57A3 /* libPods-YVM.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0483BEB12325EE860078FD6B = {
+			isa = PBXGroup;
+			children = (
+				0483BEBC2325EE860078FD6B /* YVM */,
+				0483BEBB2325EE860078FD6B /* Products */,
+				EE9265BC3A99E4EDC2E2A5A9 /* Pods */,
+				551A54FD6AA6BE748B136E80 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0483BEBB2325EE860078FD6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0483BEBA2325EE860078FD6B /* YVM.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0483BEBC2325EE860078FD6B /* YVM */ = {
+			isa = PBXGroup;
+			children = (
+				04D798D723C5B720002357DD /* SupportingFiles */,
+				04C7680723B5BBA700655359 /* Test */,
+				0483BED32325EF9A0078FD6B /* YVMManage */,
+			);
+			path = YVM;
+			sourceTree = "<group>";
+		};
+		0483BED32325EF9A0078FD6B /* YVMManage */ = {
+			isa = PBXGroup;
+			children = (
+				043C2F1223B319E500E8C7D6 /* YVMCommon.h */,
+				042AA4C523B1F30C00C7D957 /* NSObject+YVM.h */,
+				042AA4C623B1F30C00C7D957 /* NSObject+YVM.m */,
+				0467DCB223A0FA08006F8B40 /* YVMNetWorkConfig.h */,
+				0467DCB323A0FA08006F8B40 /* YVMNetWorkConfig.m */,
+				0483BED5232603BF0078FD6B /* YVMNetWorkManager.h */,
+				0483BED6232603BF0078FD6B /* YVMNetWorkManager.m */,
+				04B5451323323D1000391B8A /* YVMNetWorkClient.h */,
+				04B5451423323D1000391B8A /* YVMNetWorkClient.m */,
+				04B5451623323DA700391B8A /* YVMRequestManage.h */,
+				04B5451723323DA700391B8A /* YVMRequestManage.m */,
+				043C2F1323B339B400E8C7D6 /* YVMRefreshTableView.h */,
+				043C2F1423B339B400E8C7D6 /* YVMRefreshTableView.m */,
+				043C2F1623B363F800E8C7D6 /* YVMRefreshCollectionView.h */,
+				043C2F1723B363F800E8C7D6 /* YVMRefreshCollectionView.m */,
+				04ECAED323B490280029E379 /* YVMControlConfig.h */,
+				04ECAED423B490280029E379 /* YVMControlConfig.m */,
+				04ECAED623B490760029E379 /* YVMManage.h */,
+				04ECAED723B490760029E379 /* YVMManage.m */,
+				04C7680823B5C2D700655359 /* YVMListSectionManage.h */,
+				04C7680923B5C2D700655359 /* YVMListSectionManage.m */,
+				0460D34423B4BA9E00CCC826 /* YVMListViewManage.h */,
+				0460D34523B4BA9E00CCC826 /* YVMListViewManage.m */,
+				044F315523C472FC00DE5C92 /* YVMTableViewManage.h */,
+				044F315623C472FC00DE5C92 /* YVMTableViewManage.m */,
+				044F315823C495EC00DE5C92 /* YVMCollectionViewManage.h */,
+				044F315923C495EC00DE5C92 /* YVMCollectionViewManage.m */,
+			);
+			path = YVMManage;
+			sourceTree = "<group>";
+		};
+		04C7680723B5BBA700655359 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				04D798DA23C5B870002357DD /* Local */,
+				0413E10223B9B70800E861CA /* YVMTestBaseObj.h */,
+				0413E10323B9B70800E861CA /* YVMTestBaseObj.m */,
+				0413E10423B9B70800E861CA /* YVMTestIncomeObj.h */,
+				0413E0FD23B9B70800E861CA /* YVMTestIncomeObj.m */,
+				0413E0FE23B9B70800E861CA /* YVMTestIncomeTableCellModel.h */,
+				0413E0FF23B9B70800E861CA /* YVMTestIncomeTableCellModel.m */,
+				0413E10123B9B70800E861CA /* YVMTestPageObj.h */,
+				0413E10023B9B70800E861CA /* YVMTestPageObj.m */,
+				04D798D423C5AE1E002357DD /* YVMTestTableViewController.h */,
+				04D798D523C5AE1E002357DD /* YVMTestTableViewController.m */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		04D798D723C5B720002357DD /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				0483BEBD2325EE860078FD6B /* AppDelegate.h */,
+				0483BEBE2325EE860078FD6B /* AppDelegate.m */,
+				0483BEC62325EE870078FD6B /* Assets.xcassets */,
+				0483BECB2325EE870078FD6B /* Info.plist */,
+				0483BECC2325EE870078FD6B /* main.m */,
+				04D798D823C5B768002357DD /* LaunchScreen.storyboard */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		04D798DA23C5B870002357DD /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				04D798E023C5B8B6002357DD /* Main */,
+				04D798DF23C5B8AA002357DD /* Table */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		04D798DB23C5B87C002357DD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04D798DC23C5B888002357DD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04D798DD23C5B88D002357DD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04D798DE23C5B892002357DD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		04D798DF23C5B8AA002357DD /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				04D798DE23C5B892002357DD /* ViewModel */,
+				04D798DD23C5B88D002357DD /* Model */,
+				04D798DC23C5B888002357DD /* View */,
+				04D798DB23C5B87C002357DD /* Controller */,
+			);
+			path = Table;
+			sourceTree = "<group>";
+		};
+		04D798E023C5B8B6002357DD /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				04D798E423C5B913002357DD /* ViewModel */,
+				04D798E323C5B90E002357DD /* Model */,
+				04D798E223C5B909002357DD /* View */,
+				04D798E123C5B903002357DD /* Controller */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		04D798E123C5B903002357DD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04D798E223C5B909002357DD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04D798E323C5B90E002357DD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04D798E423C5B913002357DD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		551A54FD6AA6BE748B136E80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F10D527CAB2E6DBF76407BFF /* libPods-YVM.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE9265BC3A99E4EDC2E2A5A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7DD5F39F1EC058D9D05DA643 /* Pods-YVM.debug.xcconfig */,
+				95C2C8305481CEE897587882 /* Pods-YVM.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0483BEB92325EE860078FD6B /* YVM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0483BED02325EE870078FD6B /* Build configuration list for PBXNativeTarget "YVM" */;
+			buildPhases = (
+				AA5E591E2B8BDFC1B4C716C9 /* [CP] Check Pods Manifest.lock */,
+				0483BEB62325EE860078FD6B /* Sources */,
+				0483BEB72325EE860078FD6B /* Frameworks */,
+				0483BEB82325EE860078FD6B /* Resources */,
+				A618574E8069E8EF6B7FF6D3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YVM;
+			productName = YVM;
+			productReference = 0483BEBA2325EE860078FD6B /* YVM.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0483BEB22325EE860078FD6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Xiaobin Hong";
+				TargetAttributes = {
+					0483BEB92325EE860078FD6B = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 0483BEB52325EE860078FD6B /* Build configuration list for PBXProject "YVM" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0483BEB12325EE860078FD6B;
+			productRefGroup = 0483BEBB2325EE860078FD6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0483BEB92325EE860078FD6B /* YVM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0483BEB82325EE860078FD6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0483BEC72325EE870078FD6B /* Assets.xcassets in Resources */,
+				04D798D923C5B768002357DD /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A618574E8069E8EF6B7FF6D3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YVM/Pods-YVM-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YVM/Pods-YVM-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YVM/Pods-YVM-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA5E591E2B8BDFC1B4C716C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YVM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0483BEB62325EE860078FD6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044F315A23C495EC00DE5C92 /* YVMCollectionViewManage.m in Sources */,
+				044F315723C472FC00DE5C92 /* YVMTableViewManage.m in Sources */,
+				04C7680A23B5C2D700655359 /* YVMListSectionManage.m in Sources */,
+				04ECAED523B490280029E379 /* YVMControlConfig.m in Sources */,
+				0460D34623B4BA9E00CCC826 /* YVMListViewManage.m in Sources */,
+				04D798D623C5AE1E002357DD /* YVMTestTableViewController.m in Sources */,
+				0413E10823B9B70800E861CA /* YVMTestBaseObj.m in Sources */,
+				0413E10723B9B70800E861CA /* YVMTestPageObj.m in Sources */,
+				0483BED7232603BF0078FD6B /* YVMNetWorkManager.m in Sources */,
+				0483BECD2325EE870078FD6B /* main.m in Sources */,
+				04B5451523323D1000391B8A /* YVMNetWorkClient.m in Sources */,
+				042AA4C723B1F30C00C7D957 /* NSObject+YVM.m in Sources */,
+				04B5451823323DA700391B8A /* YVMRequestManage.m in Sources */,
+				0483BEBF2325EE860078FD6B /* AppDelegate.m in Sources */,
+				043C2F1523B339B400E8C7D6 /* YVMRefreshTableView.m in Sources */,
+				0413E10623B9B70800E861CA /* YVMTestIncomeTableCellModel.m in Sources */,
+				0467DCB423A0FA08006F8B40 /* YVMNetWorkConfig.m in Sources */,
+				043C2F1823B363F800E8C7D6 /* YVMRefreshCollectionView.m in Sources */,
+				0413E10523B9B70800E861CA /* YVMTestIncomeObj.m in Sources */,
+				04ECAED823B490760029E379 /* YVMManage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0483BECE2325EE870078FD6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0483BECF2325EE870078FD6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0483BED12325EE870078FD6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DD5F39F1EC058D9D05DA643 /* Pods-YVM.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = NWJ46W4986;
+				INFOPLIST_FILE = YVM/SupportingFiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.honglajiao.www;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = HongLaJiaoDev;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0483BED22325EE870078FD6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95C2C8305481CEE897587882 /* Pods-YVM.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = NWJ46W4986;
+				INFOPLIST_FILE = YVM/SupportingFiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.honglajiao.www;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = HongLaJiaoDev;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0483BEB52325EE860078FD6B /* Build configuration list for PBXProject "YVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0483BECE2325EE870078FD6B /* Debug */,
+				0483BECF2325EE870078FD6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0483BED02325EE870078FD6B /* Build configuration list for PBXNativeTarget "YVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0483BED12325EE870078FD6B /* Debug */,
+				0483BED22325EE870078FD6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0483BEB22325EE860078FD6B /* Project object */;
+}
