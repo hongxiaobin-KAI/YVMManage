@@ -83,7 +83,7 @@ typedef void(^YVMScrollHandler)(CGPoint offset, CGPoint velocity, CGPoint target
 - (YVMCollectionViewManage *)initBind:(YVMRefreshCollectionView *)table
                         cellClassName:(NSString *)cellClassName
                              interAPI:(NSString *)interAPI
-                        parseDictName:(NSString *)parseDictName
+                    parseListDictName:(NSString *)parseListDictName
                          objClassName:(NSString *)objClassName
                           vmClassName:(NSString *)vmClassName
                              cellSize:(CGSize)cellSize;

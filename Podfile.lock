@@ -15,7 +15,7 @@ PODS:
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
   - MJExtension (3.2.1)
-  - MJRefresh (3.2.3)
+  - MJRefresh (3.3.1)
 
 DEPENDENCIES:
   - AFNetworking
@@ -25,15 +25,14 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - AFNetworking
-  trunk:
     - MJExtension
     - MJRefresh
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   MJExtension: 635f2c663dcb1bf76fa4b715b2570a5710aec545
-  MJRefresh: 2b1214a2dc8f4df4c5dcb028ea2ad4e245425fb7
+  MJRefresh: eeda70fbf0ad277f3178cef1cd0c3532591d6237
 
-PODFILE CHECKSUM: 6c22ccb9c79c84ca5f4fc71b945455fdac3f7891
+PODFILE CHECKSUM: cbdf68064efffb0d79b448f94ed58ddc1f54af3a
 
 COCOAPODS: 1.8.4
